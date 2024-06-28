@@ -23,6 +23,7 @@ public class HeadsOrTails {
         }
         System.out.printf("Heads: %d, Tails: %d\n", count_heads, count_tails);
         // ユーザー名を含む勝利メッセージを追加
+        // I'm sorry for I mistake message
         if (count_heads > count_tails) {
             System.out.println(name + " won!");
         } else {
