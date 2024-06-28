@@ -1,7 +1,13 @@
 import java.util.Random;
+import java.util.Scanner;
 public class HeadsOrTails {
     public static void main(String[] args){
         Random random = new Random();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Who are you?\n>");
+        String name;
+        name = sc.nextLine();
+        System.out.printf("Hello, %s!", name);
         int count_heads = 0;
         int count_tails = 0;
         for(int i = 0; i < 3; i++){
