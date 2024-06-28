@@ -16,5 +16,11 @@ public class HeadsOrTails {
             }
         }
         System.out.printf("Heads: %d, Tails: %d\n", count_heads, count_tails);
+        // 勝利メッセージを追加
+        if (count_heads > count_tails) {
+            System.out.println("You won");
+        } else {
+            System.out.println("You lost");
+        }
     }
 }
